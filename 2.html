@@ -1,0 +1,53 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="ex1.css">
+</head>
+<body style="font-family:STKaiti">
+<script language=javascript>
+var name;
+name=prompt("请输入您的姓名：","");
+document.write("尊敬的"+name+":欢迎您进入诗词长廊！")
+</script>
+<div id=all>
+<div id="top">
+<p>诗词长廊<span style="font-size: 15px">——长廊风度磬，深院雨留香。</span></p>
+<pre><div id="datetime">
+    <script>
+        setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+    </script>
+</div>
+<img src = "紫色.jpg"
+width=882px;
+height=200px>
+</pre>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="jd.html">经典永流传</a></li>
+<li><a href="" >诗词典故</a></li>
+<li><a href="">我的喜欢</a></li>
+</ul>
+</div>
+
+<div id="maincol">
+<h2>今日推荐</h2>
+<pre>
+西风挟雨声翻浪。恰洗尽、黄茅瘴。老惯人间齐得丧。
+千岩高卧，五湖归棹，替却凌烟像。故人小驻平戎帐。白羽腰间气何壮。
+我老渔樵君将相。小槽红酒，晚香丹荔，记取蛮江上。
+---《青玉案·与朱景参会北岭》宋·陆游
+</pre>
+<INPUT Type="button" Value="❤️" ID="B3" Onclick="javascript:function()">
+<INPUT Type="button" Value="💔" ID="B4" Onclick="javascript:function()">
+</div>
+
+<div id="footer" class="right">
+分享：<INPUT Type="image" SRC="vx.jpg"height="20" width="20" /> 
+<INPUT Type="image" SRC="QQ.jpg"height="20" width="20" />
+<a href="mailto:594930932@qq.com">邮箱</a>
+</div>
+</div>
+</body>
+</html>
